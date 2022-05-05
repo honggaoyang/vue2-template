@@ -6,6 +6,6 @@ export function login(params) {
         headers: { 'deviceCode': 'A95ZEF1-47B5-AC90BF3' },
         url: '/api/VHome/Login',
         method: 'POST',
-        params
+        data:params
     })
 }
